@@ -91,7 +91,7 @@ PyCharm の画面で行う場合は、メニューの［Git］→［プッシュ
 | 最初の push で Actions が動かない | 上の手順5のとおり、既知の挙動。**Run workflow** で手動実行する |
 | `couldn't find remote ref refs/heads/main`（受講者用リポジトリのチェックアウト） | 受講者用リポジトリにコミットが1つもない。README.md などを1つ追加してコミットしてから再実行する |
 | 受講者用リポジトリのチェックアウトで失敗（上記以外） | `STUDENT_REPO_TOKEN` が未登録、またはトークンの対象リポジトリ・権限が違う。手順2・3を見直す |
-| 「除外漏れがないことを確認」で失敗 | `answer/`・`teacher/` 以外の場所に、名前に answer / teacher を含むファイルがある。名前を変えるか `answer/` に移す |
+| 「除外漏れ・除外しすぎがないことを確認」で失敗 | `answer/`・`teacher/` 以外の場所に、名前に answer / teacher を含むファイルがある。名前を変えるか `answer/` に移す |
 | Actions タブにワークフローが表示されない | (a) ブランチ名が `main` か確認する。(b) **Settings → Actions → General** で Actions が無効になっていないか確認する |
 | 緑のチェックだが受講者用リポジトリが変わらない | `answer/` などの同期しないファイルだけを変更した（意図どおり） |
 

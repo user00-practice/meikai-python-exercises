@@ -39,19 +39,21 @@ jobs:
         run: |
           rm -rf build
           mkdir build
+          # 先頭の / は「リポジトリ直下だけ」という意味。付けないと、
+          # exercises/ch01/README.md など下の階層の同名ファイルまで除外されてしまう。
           rsync -a \
             --exclude='.git/' \
-            --exclude='.github/' \
-            --exclude='answer/' \
-            --exclude='teacher/' \
-            --exclude='SETUP.md' \
-            --exclude='README.md' \
-            --exclude='STUDENT_README.md' \
+            --exclude='/.github/' \
+            --exclude='/answer/' \
+            --exclude='/teacher/' \
+            --exclude='/SETUP.md' \
+            --exclude='/README.md' \
+            --exclude='/STUDENT_README.md' \
             source/ build/
           cp source/STUDENT_README.md build/README.md
 
       # 4. 念のため、除外漏れがないかチェックする（安全対策の二重化）
-      - name: 除外漏れがないことを確認
+      - name: 除外漏れ・除外しすぎがないことを確認
         run: |
           LEAK=$(find build -iname '*answer*' -o -iname '*teacher*' || true)
           if [ -n "$LEAK" ]; then
@@ -59,6 +61,15 @@ jobs:
             echo "$LEAK"
             exit 1
           fi
+          # 問題・解答例・解説の README.md がそろっているか確認する（除外しすぎの検出）
+          for ch in 01 02 03 04 05 06 07 08 09 10 11 12 13; do
+            for d in exercises explanations; do
+              if [ ! -f "build/$d/ch$ch/README.md" ]; then
+                echo "::error::build/$d/ch$ch/README.md がありません。ワークフローの除外設定を確認してください。"
+                exit 1
+              fi
+            done
+          done
 
       # 5. build/ の内容を受講者用リポジトリへミラーリングする（余分なファイルは削除）
       - name: 受講者用リポジトリへ反映
