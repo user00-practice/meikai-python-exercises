@@ -126,7 +126,7 @@ project/
 7 は偶数：False
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch10/q05_main.py`](./q05_main.py)
+> ▶ 解答例のプログラム：[`answer/ch10/q05_main.py`](./q05_main.py)
 
 #### 解答例
 
@@ -185,7 +185,7 @@ shop/
 税込合計：2,508円
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch10/q06_shop_app.py`](./q06_shop_app.py)
+> ▶ 解答例のプログラム：[`answer/ch10/q06_shop_app.py`](./q06_shop_app.py)
 
 #### 解答例
 

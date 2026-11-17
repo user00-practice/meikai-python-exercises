@@ -278,7 +278,7 @@ if price >= 1000:
 入場料は1000円です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch03/q11_fee.py`](./q11_fee.py)
+> ▶ 解答例のプログラム：[`answer/ch03/q11_fee.py`](./q11_fee.py)
 
 #### 解答例
 
@@ -312,7 +312,7 @@ print(f'入場料は{fee}円です')
 うるう年です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch03/q12_leap_year.py`](./q12_leap_year.py)
+> ▶ 解答例のプログラム：[`answer/ch03/q12_leap_year.py`](./q12_leap_year.py)
 
 #### 解答例
 

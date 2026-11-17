@@ -203,7 +203,7 @@ upper・strip など、文字列を「変える」メソッドはすべて同じ
 回文です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch06/q09_palindrome.py`](./q09_palindrome.py)
+> ▶ 解答例のプログラム：[`answer/ch06/q09_palindrome.py`](./q09_palindrome.py)
 
 #### 解答例
 
@@ -234,7 +234,7 @@ else:
 和：8　差：-2　積：15
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch06/q10_two_numbers.py`](./q10_two_numbers.py)
+> ▶ 解答例のプログラム：[`answer/ch06/q10_two_numbers.py`](./q10_two_numbers.py)
 
 #### 解答例
 
@@ -264,7 +264,7 @@ print(f'和：{a + b}　差：{a - b}　積：{a * b}')
 英字：3　数字：3　その他：2
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch06/q11_char_types.py`](./q11_char_types.py)
+> ▶ 解答例のプログラム：[`answer/ch06/q11_char_types.py`](./q11_char_types.py)
 
 #### 解答例
 

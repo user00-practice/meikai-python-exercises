@@ -248,7 +248,7 @@ c：5
 最大値は9です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch09/q10_max3.py`](./q10_max3.py)
+> ▶ 解答例のプログラム：[`answer/ch09/q10_max3.py`](./q10_max3.py)
 
 #### 解答例
 
@@ -288,7 +288,7 @@ print(f'最大値は{max3(x, y, z)}です')
 2 3 5 7 11 13 17 19
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch09/q11_primes.py`](./q11_primes.py)
+> ▶ 解答例のプログラム：[`answer/ch09/q11_primes.py`](./q11_primes.py)
 
 #### 解答例
 
@@ -332,7 +332,7 @@ print(*primes)
 A の人数：2
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch09/q12_grades.py`](./q12_grades.py)
+> ▶ 解答例のプログラム：[`answer/ch09/q12_grades.py`](./q12_grades.py)
 
 #### 解答例
 

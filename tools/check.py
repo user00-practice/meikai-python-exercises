@@ -1,9 +1,8 @@
 """プログラム作成問題の自動チェック
 
 使い方（プロジェクトのフォルダで実行）:
-    python tools/check_answers.py            # 自分の解答（exercises）をチェック
-    python tools/check_answers.py ch04       # 第4章だけチェック
-    python tools/check_answers.py --answers  # 解答例（answers）をチェック（講師用）
+    python tools/check.py            # 自分のプログラム（exercises）をチェック
+    python tools/check.py ch04       # 第4章だけチェック
 
 各問題のプログラムに決められた入力を与えて実行し、
 表示が期待どおりかどうかを確かめます。
@@ -37,7 +36,11 @@ def run_test(folder: Path, file: str, stdin: str) -> str:
 
 def main() -> None:
     args = sys.argv[1:]
-    target = 'answers' if '--answers' in args else 'exercises'
+    # --answer：answer/ フォルダのプログラムをチェックする（answer/ がある場合のみ）
+    target = 'answer' if '--answer' in args else 'exercises'
+    if not (ROOT / target).is_dir():
+        print(f'{target}/ フォルダが見つかりません。')
+        sys.exit(1)
     chapters = [a for a in args if a.startswith('ch')]
     tests = json.loads((ROOT / 'tools' / 'tests.json').read_text(encoding='utf-8'))
     if chapters:

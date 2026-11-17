@@ -216,7 +216,7 @@ print(math.isclose(0.1 + 0.2, 0.3))   # True
 16進数：0xff
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch05/q09_bases.py`](./q09_bases.py)
+> ▶ 解答例のプログラム：[`answer/ch05/q09_bases.py`](./q09_bases.py)
 
 #### 解答例
 
@@ -246,7 +246,7 @@ f文字列の書式指定 `{n:b}`・`{n:o}`・`{n:x}` を使うと、先頭の 0
 奇数です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch05/q10_even_odd_bit.py`](./q10_even_odd_bit.py)
+> ▶ 解答例のプログラム：[`answer/ch05/q10_even_odd_bit.py`](./q10_even_odd_bit.py)
 
 #### 解答例
 

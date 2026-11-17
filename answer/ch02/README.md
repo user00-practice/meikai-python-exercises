@@ -237,7 +237,7 @@ Python には書き換えを禁止する仕組みはありません。大文字�
 こんにちは、佐藤さん！
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch02/q09_greeting.py`](./q09_greeting.py)
+> ▶ 解答例のプログラム：[`answer/ch02/q09_greeting.py`](./q09_greeting.py)
 
 #### 解答例
 
@@ -265,7 +265,7 @@ print(f'こんにちは、{name}さん！')
 周りの長さは16です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch02/q10_rectangle.py`](./q10_rectangle.py)
+> ▶ 解答例のプログラム：[`answer/ch02/q10_rectangle.py`](./q10_rectangle.py)
 
 #### 解答例
 
@@ -296,7 +296,7 @@ f文字列の `{ }` の中には、`h * w` のような式も書けます。
 BMIは20.8です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch02/q11_bmi.py`](./q11_bmi.py)
+> ▶ 解答例のプログラム：[`answer/ch02/q11_bmi.py`](./q11_bmi.py)
 
 #### 解答例
 
@@ -329,7 +329,7 @@ print(f'BMIは{bmi:.1f}です')
 給料は2,750円です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch02/q12_pay.py`](./q12_pay.py)
+> ▶ 解答例のプログラム：[`answer/ch02/q12_pay.py`](./q12_pay.py)
 
 #### 解答例
 

@@ -185,7 +185,7 @@ UTF-8 では、英数字は1バイト、ひらがなは1文字3バイトです�
 人数 4　合計 307　平均 76.8
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch13/q06_score_file.py`](./q06_score_file.py)
+> ▶ 解答例のプログラム：[`answer/ch13/q06_score_file.py`](./q06_score_file.py)
 
 #### 解答例
 
@@ -226,7 +226,7 @@ score.txt は 4 行です
 nothing.txt が見つかりません
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch13/q07_safe_read.py`](./q07_safe_read.py)
+> ▶ 解答例のプログラム：[`answer/ch13/q07_safe_read.py`](./q07_safe_read.py)
 
 #### 解答例
 
@@ -261,7 +261,7 @@ score.txt を読み込み、70点以上の人の名前に番号を付けて pass
 3. 田中
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch13/q08_write_passed.py`](./q08_write_passed.py)
+> ▶ 解答例のプログラム：[`answer/ch13/q08_write_passed.py`](./q08_write_passed.py)
 
 #### 解答例
 

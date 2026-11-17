@@ -166,7 +166,7 @@ Exception クラスを継承して作ります。クラス名は「〜Error」�
 7 の2倍は 14 です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch12/q07_input_int.py`](./q07_input_int.py)
+> ▶ 解答例のプログラム：[`answer/ch12/q07_input_int.py`](./q07_input_int.py)
 
 #### 解答例
 
@@ -199,7 +199,7 @@ print(f'{n} の2倍は {n * 2} です')
 計算を終わります
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch12/q08_divide.py`](./q08_divide.py)
+> ▶ 解答例のプログラム：[`answer/ch12/q08_divide.py`](./q08_divide.py)
 
 #### 解答例
 
@@ -253,7 +253,7 @@ for amount in [300, 3000, -5, 200]:
 200円引き出しました。残高 500円
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch12/q09_custom_exception.py`](./q09_custom_exception.py)
+> ▶ 解答例のプログラム：[`answer/ch12/q09_custom_exception.py`](./q09_custom_exception.py)
 
 #### 解答例
 

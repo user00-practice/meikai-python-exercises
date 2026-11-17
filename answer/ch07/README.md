@@ -212,7 +212,7 @@ g = [[0] * 2 for _ in range(2)]
 最高 90　最低 65
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch07/q09_scores.py`](./q09_scores.py)
+> ▶ 解答例のプログラム：[`answer/ch07/q09_scores.py`](./q09_scores.py)
 
 #### 解答例
 
@@ -246,7 +246,7 @@ print(f'最高 {max(scores)}　最低 {min(scores)}')
 最大値は9です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch07/q10_max.py`](./q10_max.py)
+> ▶ 解答例のプログラム：[`answer/ch07/q10_max.py`](./q10_max.py)
 
 #### 解答例
 
@@ -279,7 +279,7 @@ print(f'最大値は{mx}です')
 平均以上：[80, 90]
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch07/q11_above_average.py`](./q11_above_average.py)
+> ▶ 解答例のプログラム：[`answer/ch07/q11_above_average.py`](./q11_above_average.py)
 
 #### 解答例
 

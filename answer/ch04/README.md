@@ -248,7 +248,7 @@ print(count)
 合計は8です
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch04/q09_sum_until_zero.py`](./q09_sum_until_zero.py)
+> ▶ 解答例のプログラム：[`answer/ch04/q09_sum_until_zero.py`](./q09_sum_until_zero.py)
 
 #### 解答例
 
@@ -284,7 +284,7 @@ print(f'合計は{total}です')
 3 × 9 = 27
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch04/q10_times_table.py`](./q10_times_table.py)
+> ▶ 解答例のプログラム：[`answer/ch04/q10_times_table.py`](./q10_times_table.py)
 
 #### 解答例
 
@@ -316,7 +316,7 @@ for i in range(1, 10):
 ****
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch04/q11_triangle.py`](./q11_triangle.py)
+> ▶ 解答例のプログラム：[`answer/ch04/q11_triangle.py`](./q11_triangle.py)
 
 #### 解答例
 
@@ -338,7 +338,7 @@ i 段目は、スペースを n − i 個、* を i 個表示します。
 
 1 から入力した数までを順に表示するプログラムを作りなさい。ただし、3 の倍数のときは「Fizz」、5 の倍数のときは「Buzz」、3 と 5 の両方の倍数のときは「FizzBuzz」と表示しなさい。
 
-> ▶ 解答例のプログラム：[`answers/ch04/q12_fizzbuzz.py`](./q12_fizzbuzz.py)
+> ▶ 解答例のプログラム：[`answer/ch04/q12_fizzbuzz.py`](./q12_fizzbuzz.py)
 
 #### 解答例
 

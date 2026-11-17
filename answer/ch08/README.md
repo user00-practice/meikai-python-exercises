@@ -182,7 +182,7 @@ print({x: x * x for x in range(1, 4)})
 ぶどう：1回
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch08/q08_word_count.py`](./q08_word_count.py)
+> ▶ 解答例のプログラム：[`answer/ch08/q08_word_count.py`](./q08_word_count.py)
 
 #### 解答例
 
@@ -216,7 +216,7 @@ PRICES = {'りんご': 100, 'みかん': 80, 'ぶどう': 300}
 メロンは扱っていません
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch08/q09_price_lookup.py`](./q09_price_lookup.py)
+> ▶ 解答例のプログラム：[`answer/ch08/q09_price_lookup.py`](./q09_price_lookup.py)
 
 #### 解答例
 
@@ -249,7 +249,7 @@ Bの参加者：鈴木 田中 佐藤
 Aだけ：['高橋']
 ```
 
-> ▶ 解答例のプログラム：[`answers/ch08/q10_common_members.py`](./q10_common_members.py)
+> ▶ 解答例のプログラム：[`answer/ch08/q10_common_members.py`](./q10_common_members.py)
 
 #### 解答例
 
