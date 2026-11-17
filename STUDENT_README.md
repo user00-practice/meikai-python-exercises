@@ -1,7 +1,7 @@
 # 新・明解Python入門（第2版）練習問題
 
-書籍『新・明解Python入門（第2版）』の各章に対応した練習問題です。
-問題文はすべて Markdown で書かれていて、PyCharm や GitHub でそのまま読めます。
+書籍『新・明解Python入門（第2版）』の各章に対応した練習問題と、解答例・解説です。
+問題文・解答例・解説はすべて Markdown で書かれていて、PyCharm や GitHub でそのまま読めます。
 
 > このリポジトリは、講師のリポジトリから GitHub Actions で自動的に作られています。
 > 直接 push しても、次の更新で上書きされるので注意してください。
@@ -12,21 +12,21 @@
 
 ## 章の一覧
 
-| 章 | タイトル | 問題 | 問題数 | プログラム作成 |
-| --- | --- | --- | --- | --- |
-| 第1章 | Pythonをはじめよう！ | [問題](exercises/ch01/README.md) | 12 | 0 |
-| 第2章 | 画面への表示とキーボードからの入力 | [問題](exercises/ch02/README.md) | 12 | 4 |
-| 第3章 | プログラムの流れの分岐 | [問題](exercises/ch03/README.md) | 12 | 2 |
-| 第4章 | プログラムの流れの繰返し | [問題](exercises/ch04/README.md) | 12 | 4 |
-| 第5章 | オブジェクトと型 | [問題](exercises/ch05/README.md) | 10 | 2 |
-| 第6章 | 文字列 | [問題](exercises/ch06/README.md) | 11 | 3 |
-| 第7章 | リスト | [問題](exercises/ch07/README.md) | 11 | 3 |
-| 第8章 | タプルと辞書と集合 | [問題](exercises/ch08/README.md) | 10 | 3 |
-| 第9章 | 関数 | [問題](exercises/ch09/README.md) | 12 | 3 |
-| 第10章 | モジュールとパッケージ | [問題](exercises/ch10/README.md) | 6 | 2 |
-| 第11章 | クラス | [問題](exercises/ch11/README.md) | 10 | 3 |
-| 第12章 | 例外処理 | [問題](exercises/ch12/README.md) | 9 | 3 |
-| 第13章 | ファイル処理 | [問題](exercises/ch13/README.md) | 8 | 3 |
+| 章 | タイトル | 問題 | 解答例・解説 | 問題数 | プログラム作成 |
+| --- | --- | --- | --- | --- | --- |
+| 第1章 | Pythonをはじめよう！ | [問題](exercises/ch01/README.md) | [解答例・解説](explanations/ch01/README.md) | 12 | 0 |
+| 第2章 | 画面への表示とキーボードからの入力 | [問題](exercises/ch02/README.md) | [解答例・解説](explanations/ch02/README.md) | 12 | 4 |
+| 第3章 | プログラムの流れの分岐 | [問題](exercises/ch03/README.md) | [解答例・解説](explanations/ch03/README.md) | 12 | 2 |
+| 第4章 | プログラムの流れの繰返し | [問題](exercises/ch04/README.md) | [解答例・解説](explanations/ch04/README.md) | 12 | 4 |
+| 第5章 | オブジェクトと型 | [問題](exercises/ch05/README.md) | [解答例・解説](explanations/ch05/README.md) | 10 | 2 |
+| 第6章 | 文字列 | [問題](exercises/ch06/README.md) | [解答例・解説](explanations/ch06/README.md) | 11 | 3 |
+| 第7章 | リスト | [問題](exercises/ch07/README.md) | [解答例・解説](explanations/ch07/README.md) | 11 | 3 |
+| 第8章 | タプルと辞書と集合 | [問題](exercises/ch08/README.md) | [解答例・解説](explanations/ch08/README.md) | 10 | 3 |
+| 第9章 | 関数 | [問題](exercises/ch09/README.md) | [解答例・解説](explanations/ch09/README.md) | 12 | 3 |
+| 第10章 | モジュールとパッケージ | [問題](exercises/ch10/README.md) | [解答例・解説](explanations/ch10/README.md) | 6 | 2 |
+| 第11章 | クラス | [問題](exercises/ch11/README.md) | [解答例・解説](explanations/ch11/README.md) | 10 | 3 |
+| 第12章 | 例外処理 | [問題](exercises/ch12/README.md) | [解答例・解説](explanations/ch12/README.md) | 9 | 3 |
+| 第13章 | ファイル処理 | [問題](exercises/ch13/README.md) | [解答例・解説](explanations/ch13/README.md) | 8 | 3 |
 
 ## フォルダの構成
 
@@ -40,6 +40,9 @@ meikai-python-exercises-student/
 │   │   ├── README.md    第2章の問題
 │   │   ├── q09_greeting.py   ← ここにプログラムを書く
 │   │   └── …
+│   └── …
+├── explanations/        解答例・解説
+│   ├── ch01/README.md
 │   └── …
 └── tools/
     ├── check.py         プログラム作成問題の自動チェック
@@ -61,6 +64,8 @@ meikai-python-exercises-student/
    インタラクティブシェル（PyCharm の［Python コンソール］）で試して確かめてもかまいません。
 3. プログラムを作る問題（📝 マークの付いた問題）は、指定された `.py` ファイルを開いて、プログラムを書きます。
    ファイルを右クリック →［実行］で動かしてみましょう。
+4. 解き終わったら、`explanations/chXX/README.md` の解答例・解説で確かめます。
+   プログラムの解答例は読むだけにして、自分のプログラムは自分で書いて動かしましょう。
 
 ## 自動チェック
 

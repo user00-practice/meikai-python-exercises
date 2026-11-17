@@ -2,8 +2,6 @@
 
 [← 目次に戻る](../../README.md)　／　[問題](../../exercises/ch04/README.md)
 
-> 講師用です。受講者に配布する場合はこのフォルダを除いてください。
-
 ## 4-1　while文
 
 ### 問1　次のプログラムで、n に 3 を入力したときの表示を答えなさい。
@@ -248,8 +246,6 @@ print(count)
 合計は8です
 ```
 
-> ▶ 解答例のプログラム：[`answer/ch04/q09_sum_until_zero.py`](./q09_sum_until_zero.py)
-
 #### 解答例
 
 ```python
@@ -284,8 +280,6 @@ print(f'合計は{total}です')
 3 × 9 = 27
 ```
 
-> ▶ 解答例のプログラム：[`answer/ch04/q10_times_table.py`](./q10_times_table.py)
-
 #### 解答例
 
 ```python
@@ -316,8 +310,6 @@ for i in range(1, 10):
 ****
 ```
 
-> ▶ 解答例のプログラム：[`answer/ch04/q11_triangle.py`](./q11_triangle.py)
-
 #### 解答例
 
 ```python
@@ -337,8 +329,6 @@ i 段目は、スペースを n − i 個、* を i 個表示します。
 ### 問12　（発展）FizzBuzz
 
 1 から入力した数までを順に表示するプログラムを作りなさい。ただし、3 の倍数のときは「Fizz」、5 の倍数のときは「Buzz」、3 と 5 の両方の倍数のときは「FizzBuzz」と表示しなさい。
-
-> ▶ 解答例のプログラム：[`answer/ch04/q12_fizzbuzz.py`](./q12_fizzbuzz.py)
 
 #### 解答例
 

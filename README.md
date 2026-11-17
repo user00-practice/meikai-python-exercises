@@ -2,7 +2,7 @@
 
 書籍『新・明解Python入門（第2版）』の各章に対応した練習問題と、解答例・解説です。
 **このリポジトリは講師用です（Private 推奨）。** `main` に push すると、GitHub Actions が
-`answer/` などの講師用ファイルを取り除いて、受講者用リポジトリ
+`answer/`（解答例のプログラム）などの講師用ファイルを取り除いて、受講者用リポジトリ
 [`user00-practice/meikai-python-exercises-student`](https://github.com/user00-practice/meikai-python-exercises-student)
 へ自動で反映します。初回の設定手順は [SETUP.md](SETUP.md) を見てください。
 
@@ -26,10 +26,11 @@ GitHub Actions（.github/workflows/sync-to-student-repo.yml）
 | ファイル・フォルダ | 内容 | 受講者用に同期 |
 | --- | --- | --- |
 | `exercises/` | 問題と、プログラムを書くためのファイル | する |
+| `explanations/` | 解答例・解説（Markdown） | する |
 | `tools/` | 自動チェック（`check.py`・`tests.json`） | する |
 | `.gitignore` | Git で管理しないファイルの指定 | する |
 | `STUDENT_README.md` | 受講者用リポジトリの README.md になる | する（名前を変えて） |
-| `answer/` | 解答例・解説と、解答例のプログラム | **しない** |
+| `answer/` | 解答例のプログラム（`.py`）と、その実行に使うデータ | **しない** |
 | `teacher/` | スライド・Word などを置く場合はここへ | **しない** |
 | `README.md`（このファイル）・`SETUP.md` | 講師用の説明 | **しない** |
 
@@ -40,19 +41,19 @@ GitHub Actions（.github/workflows/sync-to-student-repo.yml）
 
 | 章 | タイトル | 問題 | 解答例・解説 | 問題数 | プログラム作成 |
 | --- | --- | --- | --- | --- | --- |
-| 第1章 | Pythonをはじめよう！ | [問題](exercises/ch01/README.md) | [解答例・解説](answer/ch01/README.md) | 12 | 0 |
-| 第2章 | 画面への表示とキーボードからの入力 | [問題](exercises/ch02/README.md) | [解答例・解説](answer/ch02/README.md) | 12 | 4 |
-| 第3章 | プログラムの流れの分岐 | [問題](exercises/ch03/README.md) | [解答例・解説](answer/ch03/README.md) | 12 | 2 |
-| 第4章 | プログラムの流れの繰返し | [問題](exercises/ch04/README.md) | [解答例・解説](answer/ch04/README.md) | 12 | 4 |
-| 第5章 | オブジェクトと型 | [問題](exercises/ch05/README.md) | [解答例・解説](answer/ch05/README.md) | 10 | 2 |
-| 第6章 | 文字列 | [問題](exercises/ch06/README.md) | [解答例・解説](answer/ch06/README.md) | 11 | 3 |
-| 第7章 | リスト | [問題](exercises/ch07/README.md) | [解答例・解説](answer/ch07/README.md) | 11 | 3 |
-| 第8章 | タプルと辞書と集合 | [問題](exercises/ch08/README.md) | [解答例・解説](answer/ch08/README.md) | 10 | 3 |
-| 第9章 | 関数 | [問題](exercises/ch09/README.md) | [解答例・解説](answer/ch09/README.md) | 12 | 3 |
-| 第10章 | モジュールとパッケージ | [問題](exercises/ch10/README.md) | [解答例・解説](answer/ch10/README.md) | 6 | 2 |
-| 第11章 | クラス | [問題](exercises/ch11/README.md) | [解答例・解説](answer/ch11/README.md) | 10 | 3 |
-| 第12章 | 例外処理 | [問題](exercises/ch12/README.md) | [解答例・解説](answer/ch12/README.md) | 9 | 3 |
-| 第13章 | ファイル処理 | [問題](exercises/ch13/README.md) | [解答例・解説](answer/ch13/README.md) | 8 | 3 |
+| 第1章 | Pythonをはじめよう！ | [問題](exercises/ch01/README.md) | [解答例・解説](explanations/ch01/README.md) | 12 | 0 |
+| 第2章 | 画面への表示とキーボードからの入力 | [問題](exercises/ch02/README.md) | [解答例・解説](explanations/ch02/README.md) | 12 | 4 |
+| 第3章 | プログラムの流れの分岐 | [問題](exercises/ch03/README.md) | [解答例・解説](explanations/ch03/README.md) | 12 | 2 |
+| 第4章 | プログラムの流れの繰返し | [問題](exercises/ch04/README.md) | [解答例・解説](explanations/ch04/README.md) | 12 | 4 |
+| 第5章 | オブジェクトと型 | [問題](exercises/ch05/README.md) | [解答例・解説](explanations/ch05/README.md) | 10 | 2 |
+| 第6章 | 文字列 | [問題](exercises/ch06/README.md) | [解答例・解説](explanations/ch06/README.md) | 11 | 3 |
+| 第7章 | リスト | [問題](exercises/ch07/README.md) | [解答例・解説](explanations/ch07/README.md) | 11 | 3 |
+| 第8章 | タプルと辞書と集合 | [問題](exercises/ch08/README.md) | [解答例・解説](explanations/ch08/README.md) | 10 | 3 |
+| 第9章 | 関数 | [問題](exercises/ch09/README.md) | [解答例・解説](explanations/ch09/README.md) | 12 | 3 |
+| 第10章 | モジュールとパッケージ | [問題](exercises/ch10/README.md) | [解答例・解説](explanations/ch10/README.md) | 6 | 2 |
+| 第11章 | クラス | [問題](exercises/ch11/README.md) | [解答例・解説](explanations/ch11/README.md) | 10 | 3 |
+| 第12章 | 例外処理 | [問題](exercises/ch12/README.md) | [解答例・解説](explanations/ch12/README.md) | 9 | 3 |
+| 第13章 | ファイル処理 | [問題](exercises/ch13/README.md) | [解答例・解説](explanations/ch13/README.md) | 8 | 3 |
 
 ## フォルダの構成
 
@@ -64,7 +65,8 @@ meikai-python-exercises/
 ├── .github/workflows/
 │   └── sync-to-student-repo.yml   自動同期のワークフロー
 ├── exercises/           問題と、プログラムを書くためのファイル（同期する）
-├── answer/              解答例・解説と、解答例のプログラム（同期しない）
+├── explanations/        解答例・解説の Markdown（同期する）
+├── answer/              解答例のプログラム .py（同期しない）
 └── tools/
     ├── check.py         プログラム作成問題の自動チェック
     └── tests.json       チェック用の入力と期待される表示
@@ -74,6 +76,8 @@ meikai-python-exercises/
 
 - 解答例のプログラムの確認：`python tools/check.py --answer`（`answer/` のプログラムをチェック）
 - 解説では、つまずきやすい点や、スライド（各章の解説用スライド・補足スライド）との対応にも触れています。
+- 受講者は解答例・解説（`explanations/`）を読めますが、解答例の `.py` ファイルは受け取りません。
+  プログラムは自分で `exercises/` に書いて、`tools/check.py` でチェックします。
 - 受講者には受講者用リポジトリ（`meikai-python-exercises-student`）の URL を伝えてクローンしてもらいます。
 
 ## PyCharm でクローンする

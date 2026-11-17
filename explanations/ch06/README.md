@@ -2,8 +2,6 @@
 
 [← 目次に戻る](../../README.md)　／　[問題](../../exercises/ch06/README.md)
 
-> 講師用です。受講者に配布する場合はこのフォルダを除いてください。
-
 ## 6-1　文字列の基礎
 
 ### 問1　`s = 'Python'` のとき、次の式の結果を答えなさい。
@@ -203,8 +201,6 @@ upper・strip など、文字列を「変える」メソッドはすべて同じ
 回文です
 ```
 
-> ▶ 解答例のプログラム：[`answer/ch06/q09_palindrome.py`](./q09_palindrome.py)
-
 #### 解答例
 
 ```python
@@ -234,8 +230,6 @@ else:
 和：8　差：-2　積：15
 ```
 
-> ▶ 解答例のプログラム：[`answer/ch06/q10_two_numbers.py`](./q10_two_numbers.py)
-
 #### 解答例
 
 ```python
@@ -263,8 +257,6 @@ print(f'和：{a + b}　差：{a - b}　積：{a * b}')
 文字列：abc123!?
 英字：3　数字：3　その他：2
 ```
-
-> ▶ 解答例のプログラム：[`answer/ch06/q11_char_types.py`](./q11_char_types.py)
 
 #### 解答例
 

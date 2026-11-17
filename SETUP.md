@@ -75,8 +75,8 @@ PyCharm の画面で行う場合は、メニューの［Git］→［プッシュ
 2. ワークフロー名をクリックし、右上の **Run workflow** ボタンから実行する
    （「All workflows」の一覧ページのままだとボタンは出ません）。
 3. 緑のチェックが付いたら、受講者用リポジトリを開いて次を目で確認する。
-   - `exercises/`・`tools/`・`.gitignore` がある
-   - `answer/`・`SETUP.md`・`.github/` が**ない**
+   - `exercises/`・`explanations/`（解答例・解説）・`tools/`・`.gitignore` がある
+   - `answer/`（解答例の .py）・`SETUP.md`・`.github/` が**ない**
    - README.md が受講者向けの内容（`STUDENT_README.md` の内容）になっている
 4. 以降は、`answer/`・`teacher/`・`README.md`・`SETUP.md` 以外のファイルを変更して
    push するたびに、自動で受講者用リポジトリへ反映されます。

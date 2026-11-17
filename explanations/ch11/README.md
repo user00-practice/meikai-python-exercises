@@ -2,8 +2,6 @@
 
 [← 目次に戻る](../../README.md)　／　[問題](../../exercises/ch11/README.md)
 
-> 講師用です。受講者に配布する場合はこのフォルダを除いてください。
-
 ## 11-1　クラス
 
 ### 問1　次の（　）に当てはまる言葉を答えなさい。
@@ -228,8 +226,6 @@ print(f'面積：{r.area()}　周の長さ：{r.perimeter()}')
 面積：15　周の長さ：16
 ```
 
-> ▶ 解答例のプログラム：[`answer/ch11/q08_rectangle.py`](./q08_rectangle.py)
-
 #### 解答例
 
 ```python
@@ -281,8 +277,6 @@ print(a.balance)
 佐藤：1,300円
 1300
 ```
-
-> ▶ 解答例のプログラム：[`answer/ch11/q09_account.py`](./q09_account.py)
 
 #### 解答例
 
@@ -340,8 +334,6 @@ Circle：面積 12.6
 Square：面積 2.2
 合計面積：23.8
 ```
-
-> ▶ 解答例のプログラム：[`answer/ch11/q10_shapes.py`](./q10_shapes.py)
 
 #### 解答例
 
