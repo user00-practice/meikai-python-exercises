@@ -8,7 +8,7 @@
 
 - 対象：プログラミング未経験の受講者
 - 動作確認：Python 3.11（書籍の対象）と Python 3.15 の両方で、解答例のプログラムがすべて正しく動くことを確認済み
-- 全13章・135問（うちプログラム作成問題 36問）
+- 全13章・140問（うちプログラム作成問題 36問）
 
 ## 講師用・受講者用の同期
 
@@ -43,13 +43,13 @@ GitHub Actions（.github/workflows/sync-to-student-repo.yml）
 | --- | --- | --- | --- | --- | --- |
 | 第1章 | Pythonをはじめよう！ | [問題](exercises/ch01/README.md) | [解答例・解説](explanations/ch01/README.md) | 12 | 0 |
 | 第2章 | 画面への表示とキーボードからの入力 | [問題](exercises/ch02/README.md) | [解答例・解説](explanations/ch02/README.md) | 12 | 4 |
-| 第3章 | プログラムの流れの分岐 | [問題](exercises/ch03/README.md) | [解答例・解説](explanations/ch03/README.md) | 12 | 2 |
-| 第4章 | プログラムの流れの繰返し | [問題](exercises/ch04/README.md) | [解答例・解説](explanations/ch04/README.md) | 12 | 4 |
+| 第3章 | プログラムの流れの分岐 | [問題](exercises/ch03/README.md) | [解答例・解説](explanations/ch03/README.md) | 15 | 3 |
+| 第4章 | プログラムの流れの繰返し | [問題](exercises/ch04/README.md) | [解答例・解説](explanations/ch04/README.md) | 13 | 4 |
 | 第5章 | オブジェクトと型 | [問題](exercises/ch05/README.md) | [解答例・解説](explanations/ch05/README.md) | 10 | 2 |
 | 第6章 | 文字列 | [問題](exercises/ch06/README.md) | [解答例・解説](explanations/ch06/README.md) | 11 | 3 |
 | 第7章 | リスト | [問題](exercises/ch07/README.md) | [解答例・解説](explanations/ch07/README.md) | 11 | 3 |
 | 第8章 | タプルと辞書と集合 | [問題](exercises/ch08/README.md) | [解答例・解説](explanations/ch08/README.md) | 10 | 3 |
-| 第9章 | 関数 | [問題](exercises/ch09/README.md) | [解答例・解説](explanations/ch09/README.md) | 12 | 3 |
+| 第9章 | 関数 | [問題](exercises/ch09/README.md) | [解答例・解説](explanations/ch09/README.md) | 13 | 3 |
 | 第10章 | モジュールとパッケージ | [問題](exercises/ch10/README.md) | [解答例・解説](explanations/ch10/README.md) | 6 | 2 |
 | 第11章 | クラス | [問題](exercises/ch11/README.md) | [解答例・解説](explanations/ch11/README.md) | 10 | 3 |
 | 第12章 | 例外処理 | [問題](exercises/ch12/README.md) | [解答例・解説](explanations/ch12/README.md) | 9 | 3 |
